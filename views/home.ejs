@@ -6,7 +6,7 @@
         <% posts.forEach(function(posttemp) { %>
             <div class="post">
                 <h2><%= posttemp.title %> - <%= detailed_date %></h2>
-                <p><%= posttemp.post %></p>
+                <p><%= posttemp.post.substring(0,100)+"..." %><a href="/posts/<%= posttemp.title %>">Read more</a></p>
             </div>
         <% }); %>
     <% } %>
