@@ -1,3 +1,3 @@
-Take aways - core functionality of ejs and the importance of lodash /n
-How to use - git clone,install npm and all dependencies and run node app.js and it will run on your localhost port 3000. /n
+Take aways - core functionality of ejs and the importance of lodash <br>
+How to use - git clone,install npm and all dependencies and run node app.js and it will run on your localhost port 3000. <br>
 Not end product...
