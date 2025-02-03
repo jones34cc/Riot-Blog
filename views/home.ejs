@@ -1,0 +1,13 @@
+<%- include("./partials/header"); %>
+    <h1>Home</h1>
+    <p><%= paragraph %></p>
+    <% if (posts.length > 0) { %>
+        <h2>Recent Posts</h2>
+        <% posts.forEach(function(posttemp) { %>
+            <div class="post">
+                <h2><%= posttemp.title %> - <%= detailed_date %></h2>
+                <p><%= posttemp.post.substring(0,100)+"..." %><a href="/posts/<%= posttemp.title %>">Read more</a></p>
+            </div>
+        <% }); %>
+    <% } %>
+<%- include("./partials/footer"); %>
